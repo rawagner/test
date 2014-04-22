@@ -48,6 +48,10 @@ public class MemberController {
     public void initNewMember() {
         newMember = new Member();
     }
+    
+    public void nothing(){
+    	
+    }
 
     public void register() throws Exception {
         try {
