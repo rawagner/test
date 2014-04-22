@@ -35,6 +35,10 @@ public class MemberRepository {
     public Member findById(Long id) {
         return em.find(Member.class, id);
     }
+    
+    public void nothing(){
+    	
+    }
 
     public Member findByEmail(String email) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
