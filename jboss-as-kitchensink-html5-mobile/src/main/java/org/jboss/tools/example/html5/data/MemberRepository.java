@@ -36,7 +36,7 @@ public class MemberRepository {
         return em.find(Member.class, id);
     }
     
-    public void nothing(){
+    public void abc(){
     	
     }
 
