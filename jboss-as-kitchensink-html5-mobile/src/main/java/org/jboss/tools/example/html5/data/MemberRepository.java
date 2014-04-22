@@ -39,6 +39,10 @@ public class MemberRepository {
     public void abc(){
     	
     }
+    
+    public void dd(){
+    	
+    }
 
     public Member findByEmail(String email) {
         CriteriaBuilder cb = em.getCriteriaBuilder();
